@@ -1,0 +1,11 @@
+@mixin fontSize ($size) {
+    font-size: $size;
+}
+@mixin flexible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin paddingText ($pt, $pb) {
+    padding: $pt $pb;
+}
